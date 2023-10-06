@@ -8,16 +8,27 @@ import Home from "../pages/home/Home";
 import Profile from "../pages/profile/Profile";
 import ChatBox from "../pages/chatbox/ChatBox";
 
+
+// components.......
+import Nav from '../components/nav/Nav'
+import Leftbar from '../components/leftbar/Leftbar'
+import Rightbar from '../components/rightbar/Rightbar'
+
+
 const LayOut = () => {
   // feed..............
 
   const Feed = () => {
     return (
       <>
+
+      <Nav/>
         <main>
+            <Leftbar/>
           <div className="container">
             <Outlet />
           </div>
+          <Rightbar/>
         </main>
       </>
     );
