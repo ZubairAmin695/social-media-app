@@ -113,3 +113,19 @@ main{
   width: 95%;
 }
 
+
+@media(max-width:1024px){
+  main{
+    grid-template-columns: 8% 56% 32%;
+  }
+}
+
+
+@media(max-width:768px){
+  main{
+    grid-template-columns: 100%;
+  }
+  .container{
+    width: 94%;
+  }
+}

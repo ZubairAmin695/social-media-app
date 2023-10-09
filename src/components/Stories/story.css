@@ -43,3 +43,50 @@
     text-align: center;
     z-index: 1;
 }
+
+.userStory{
+    margin-right: 10px;
+}
+
+.userStory label{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    font-size: 1.4rem;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    top:70%;
+    padding: 7px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    display: flex;
+}
+
+.userStory label input{
+    display: none;
+}
+
+
+@media (max-width:991px){
+    .story{
+        height: 100% !important;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .story .user{
+        display:none;
+
+    }
+
+    .story h5{
+        display:none ;
+    }
+
+    .userStory label{
+        font-size: 1rem;
+        display: flex;
+    }
+}
