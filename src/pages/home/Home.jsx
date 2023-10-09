@@ -1,8 +1,13 @@
 import React from 'react'
+import HStories from '../../components/Stories/HStories'
+ 
 
 const Home = () => {
   return (
-    <div>Home</div>
+   <>
+<HStories/>
+ 
+   </>
   )
 }
 

@@ -1,0 +1,45 @@
+.stories{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom:30px ;
+}
+.story{
+    height:170px ;
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    border-radius: .5rem;
+
+}
+
+.story::after{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background:linear-gradient(transparent, transparent,var(--color-primary));
+}
+.story .user{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 2px dashed var(--color-primary);
+    border-radius: 50%;
+}
+
+.story>img{
+    height: 100%;
+    aspect-ratio: 1/1;
+
+}
+
+.story h5{
+    color: white;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    z-index: 1;
+}
