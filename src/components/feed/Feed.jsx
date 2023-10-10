@@ -1,4 +1,4 @@
-import { faListDots } from "@fortawesome/free-solid-svg-icons";
+import { faComment, faHeart, faListDots, faShare } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -26,6 +26,18 @@ const Feed = ({ fed }) => {
             {fed.desc}
         </p>
         <img src={fed.feedImage} alt=""/>
+      </div>
+
+      <div className="bottom-content">
+        <div className="action-item">
+          <span><FontAwesomeIcon icon={faHeart}/>14 likes</span>
+        </div>
+        <div className="action-item">
+          <span><FontAwesomeIcon icon={faComment}/>2 Comments</span>
+        </div>
+        <div className="action-item">
+          <span><FontAwesomeIcon icon={faShare}/>6 share</span>
+        </div>
       </div>
     </div>
   );
