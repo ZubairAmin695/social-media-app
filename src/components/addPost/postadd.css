@@ -1,0 +1,46 @@
+.postForm{
+    background: var(--color-card);
+    padding: 20px;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.postForm .form-top{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 1px solid var(--color-border);
+
+}
+
+ .postForm .form-top input{
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+    color : var(--color-primary);
+
+ }
+
+ .post-categories{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 1rem;
+ }
+
+ .post-categories input{
+    display: none;
+ }
+ .post-categories span{
+    transition: .3s ease;
+ }
+
+ .post-categories span:hover{
+    color: var(--color-primary);
+ }

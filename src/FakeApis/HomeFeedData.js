@@ -33,8 +33,8 @@ const Feeds =[
         id: 1,
         userid: 1,
         name: 'Lana White',
-        feedImage: FeedImage1,
-        feedProfile: feedProfile1,
+        feedImage: FeedImage13,
+        feedProfile: feedProfile13,
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
     },
     {
@@ -113,8 +113,8 @@ const Feeds =[
         id: 13,
         userid: 13,
         name: 'Malkova Williams',
-        feedImage: FeedImage13,
-        feedProfile: feedProfile13,
+        feedImage: FeedImage1,
+        feedProfile: feedProfile1,
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, distinctio'
     },
 ];
